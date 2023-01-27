@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_7fa9feaf6230d61747f150cd007c53e6" kind="dir">
+    <compoundname>Trabalho-Individual-2022/src/docs</compoundname>
+    <innerfile refid="conf_8py">conf.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Trabalho-Individual-2022/src/docs/"/>
+  </compounddef>
+</doxygen>

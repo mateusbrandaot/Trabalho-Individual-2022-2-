@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_da4263f69dce6758fa2b945899927945" kind="dir">
+    <compoundname>Trabalho-Individual-2022/src</compoundname>
+    <innerdir refid="dir_ee884efefdd14246e57fcde3964663c6">Trabalho-Individual-2022/src/data_pipeline</innerdir>
+    <innerdir refid="dir_7fa9feaf6230d61747f150cd007c53e6">Trabalho-Individual-2022/src/docs</innerdir>
+    <innerdir refid="dir_2066f92ef9ce156537a4f21f7cfe19b8">Trabalho-Individual-2022/src/parser</innerdir>
+    <innerfile refid="main_8py">main.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Trabalho-Individual-2022/src/"/>
+  </compounddef>
+</doxygen>

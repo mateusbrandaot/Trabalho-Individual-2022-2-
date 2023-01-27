@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_ae53a27f264ca5314a6a630802c9416b" kind="dir">
+    <compoundname>Trabalho-Individual-2022/src/data_pipeline/pre_processing</compoundname>
+    <innerfile refid="src_2data__pipeline_2pre__processing_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="concatenate__columns_8py">concatenate_columns.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Trabalho-Individual-2022/src/data_pipeline/pre_processing/"/>
+  </compounddef>
+</doxygen>

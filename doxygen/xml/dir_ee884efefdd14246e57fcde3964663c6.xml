@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_ee884efefdd14246e57fcde3964663c6" kind="dir">
+    <compoundname>Trabalho-Individual-2022/src/data_pipeline</compoundname>
+    <innerdir refid="dir_3cf03c6e611b98427237ee93f752780a">Trabalho-Individual-2022/src/data_pipeline/feature_engineering</innerdir>
+    <innerdir refid="dir_ae53a27f264ca5314a6a630802c9416b">Trabalho-Individual-2022/src/data_pipeline/pre_processing</innerdir>
+    <innerfile refid="src_2data__pipeline_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Trabalho-Individual-2022/src/data_pipeline/"/>
+  </compounddef>
+</doxygen>

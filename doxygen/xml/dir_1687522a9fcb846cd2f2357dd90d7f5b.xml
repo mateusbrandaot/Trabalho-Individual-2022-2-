@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_1687522a9fcb846cd2f2357dd90d7f5b" kind="dir">
+    <compoundname>Trabalho-Individual-2022/tests/parser</compoundname>
+    <innerfile refid="tests_2parser_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Trabalho-Individual-2022/tests/parser/"/>
+  </compounddef>
+</doxygen>
