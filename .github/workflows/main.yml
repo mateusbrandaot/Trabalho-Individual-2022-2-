@@ -1,8 +1,7 @@
 name: Build and publish python package
 
-on:
-  release:
-    types: [ published ]
+on: [push]
+
 
 jobs:
   publish-service-client-package:
@@ -11,7 +10,7 @@ jobs:
       - name: Publish PyPi package
         uses: code-specialist/pypi-poetry-publish@v1
         with:
-          PACKAGE_DIRECTORY: "./TRABALHO-INDIVIDUAL-2022/"
+          PACKAGE_DIRECTORY: "./src/"
           PYTHON_VERSION: "3.10"
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PUBLISH_REGISTRY_PASSWORD }}
