@@ -11,6 +11,6 @@ jobs:
         uses: code-specialist/pypi-poetry-publish@v1
         with:
           PACKAGE_DIRECTORY: "./src/"
-          PYTHON_VERSION: "3.10"
+          PYTHON_VERSION: "3.8"
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PUBLISH_REGISTRY_PASSWORD }}
