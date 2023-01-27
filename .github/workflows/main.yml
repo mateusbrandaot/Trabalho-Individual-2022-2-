@@ -12,5 +12,6 @@ jobs:
         with:
           PACKAGE_DIRECTORY: "./src/"
           PYTHON_VERSION: "3.10"
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PUBLISH_REGISTRY_PASSWORD }}
           PUBLISH_REGISTRY: "https://test.pypi.org/legacy/"
