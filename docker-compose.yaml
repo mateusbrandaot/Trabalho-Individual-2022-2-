@@ -8,6 +8,8 @@ services:
       - .:/app
     depends_on:
       - mongo
+    networks:
+    - gces-networks  
 
   mongo:
     image: mongo:latest
@@ -18,3 +20,8 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: lappis
     ports:
       - 3000:3000
+    volumes:
+      - .:/app/db  
+networks:
+  gces-networks:
+    driver: bridge
