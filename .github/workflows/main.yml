@@ -13,5 +13,5 @@ jobs:
       - name: Publish PyPi package
         uses: code-specialist/pypi-poetry-publish@v1
         with:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          ACCESS_TOKEN: "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"
+          PUBLISH_REGISTRY_PASSWORD: "pypi-AgEIcHlwaS5vcmcCJDFjYmJkYTM5LWUyNjEtNGFlYi05NzdiLWJmMmJlZWM1NmM0MQACKlszLCJmM2Q4NTk0MS1kMTQwLTQ1MDAtOTIxZi05NWQ5YzI4NzA3NmQiXQAABiBsUUaMU18FNeDuJ0QIO-uBYgyxEnyhdt6HPjDu9eitXg"
