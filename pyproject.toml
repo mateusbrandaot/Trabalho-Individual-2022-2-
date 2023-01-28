@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trabalho-individual-gces-2022" 
-version = ""
+version = "0.1.5"
 description = "trabalho-individual-2022-GCES"
 authors = ["mateusbrandao <mateus.brandaoteixeira@gmail.com>"]
 readme = "README.md"
