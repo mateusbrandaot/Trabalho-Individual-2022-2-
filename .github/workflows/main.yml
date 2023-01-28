@@ -1,16 +1,29 @@
-name: Build and publish python package
-
-on: [push]
+name: Publish to PyPI
+on:
+  push:
+    branches:
+      - main
+env:
+  PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}      
 jobs:
-  publish-service-client-package:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    env:
+      ENV: dev
     steps:
-      - name: Publish PyPi package
-        uses: code-specialist/pypi-poetry-publish@v1
-        with:
-          PACKAGE_DIRECTORY: "./src/"
-          PYTHON_VERSION: "3.8"
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PUBLISH_REGISTRY_PASSWORD }}
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install Poetry
+      run: curl -sSL https://install.python-poetry.org | python3 - --git https://github.com/python-poetry/poetry.git@master
+    - name: Build 
+      run: poetry build 
+    - name: Check PYPI_TOKEN
+      run: echo $PYPI_TOKEN
+    - name: Publish to PyPI
+      run:  poetry publish --username __token__ --password $PYPI_TOKEN
+
+      
+ 
