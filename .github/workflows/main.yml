@@ -1,8 +1,7 @@
 name: Publish to PyPI
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [released] 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}      
 jobs:
@@ -16,11 +15,24 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+    - name: install requirements
+      run: pip install -r requirements.txt
+    - name: Run tests
+      run: |
+        pytest 
+
     - name: Install Poetry
       run: curl -sSL https://install.python-poetry.org | python3 - --git https://github.com/python-poetry/poetry.git@master
+    - name: install poetry 
+      run: poetry install
     - name: Build 
       run: poetry build 
     - name: Check PYPI_TOKEN
       run: echo $PYPI_TOKEN
     - name: Publish to PyPI
       run:  poetry publish --username __token__ --password $PYPI_TOKEN
+  
+    
+
+      
+ 
